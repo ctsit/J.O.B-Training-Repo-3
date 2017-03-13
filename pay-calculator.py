@@ -12,9 +12,9 @@ def computepay(hours, rate):
         return pay
 
 try:
-    hours = raw_input('How many hours did you work?')
+    hours = raw_input('How many hours did you work? ')
     hours = float(hours)
-    rate = raw_input('How much did you get payed each hour?')
+    rate = raw_input('How much did you get payed each hour? ')
     rate = float(rate)
 except:
     print 'Error, please enter numeric input'
