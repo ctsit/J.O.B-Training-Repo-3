@@ -1,6 +1,7 @@
 # prompt for hours and rate to compute pay with overtime calculation
 # catching exceptions with try and except
 # updated with a function
+# Add a comment because the : is automatically being added.
 
 def computepay(hours, rate)
     overtime = hours - 40
