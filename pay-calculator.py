@@ -2,7 +2,7 @@
 # catching exceptions with try and except
 # updated with a function
 
-def computepay(hours, rate)
+def computepay(hours, rate):
     overtime = hours - 40
     if hours > 40:
         pay = (40 * rate) + (overtime * rate * 1.5)
@@ -21,4 +21,4 @@ except:
 
 pay = computepay(hours, rate)
 
-print 'Pay:', pay
+print 'pay:', pay
