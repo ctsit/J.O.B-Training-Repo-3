@@ -21,4 +21,4 @@ except:
 
 pay = computepay(hours, rate)
 
-print 'Pay:', pay
+print 'pay:', pay
