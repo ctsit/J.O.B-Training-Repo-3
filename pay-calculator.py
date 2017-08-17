@@ -27,3 +27,4 @@ except:
 pay = computepay(hours, rate)
 
 print 'Pay:', pay
+print 'Hours worked overtime', hours - 40
