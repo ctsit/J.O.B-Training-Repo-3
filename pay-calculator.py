@@ -6,12 +6,15 @@ def computepay(hours, rate):
     overtime = hours - 40
     if hours > 40:
         pay = (40 * rate) + (overtime * rate * 1.5)
-        pay = '${:,.2f}'.format(pay) #converts the float value to a currency dollars
+        pay = float2dollar(pay)
         return pay
     else:
         pay = hours * rate
-        pay = '${:,.2f}'.format(pay)
+        pay = float2dollar(pay)
         return pay
+
+def float2dollar(num):
+    return '${:,.2f}'.format(num)
 
 try:
     hours = raw_input('How many hours did you work? ')
@@ -24,3 +27,4 @@ except:
 pay = computepay(hours, rate)
 
 print 'Pay:', pay
+print 'Hours worked overtime', hours - 40
