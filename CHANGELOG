@@ -1,12 +1,10 @@
-##[0.2.3] - 2017-08-17
+## [0.2.3] - 2017-08-17
 ### Changed
   *HotFix 0.2.3 code so that it will display hours worked overtime (rajputd)
-
-
+  
 ## [0.2.2] - 2017-07-31
 ### Changed
   * HotFix 0.2.2 code so it will calculate value. (Buck72)
-
 
 ## [0.2.1] - 2017-02-22
 ### Changed
