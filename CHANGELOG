@@ -1,12 +1,6 @@
-
-## [0.2.2] - 2017-28-07
+##[0.2.3] - 2017-08-17
 ### Changed
-  *Fixed pay-calculator.py
-
-
-## [0.3.2] - 2017-07-22
-### Changed
-  * Fix pay-calculator.py using Miriam method
+  *HotFix 0.2.3 code so that it will display hours worked overtime (rajputd)
 
 
 ## [0.2.2] - 2017-07-31
