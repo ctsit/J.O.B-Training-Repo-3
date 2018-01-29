@@ -2,6 +2,7 @@
 # catching exceptions with try and except
 # updated with a function
 # Kevin was here 1/29/2018
+# Roukna was here 01/29/2018
 
 def computepay(hours, rate):
     overtime = hours - 40
