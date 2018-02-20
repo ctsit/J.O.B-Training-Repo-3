@@ -4,6 +4,8 @@
 # Kevin was here 1/29/2018
 # Roukna was here 01/29/2018
 # Taryn was here on 1/29/18
+# Tiago was here on 2/20/18
+# Tiago was here on 2/20/18 again
 
 def computepay(hours, rate):
     overtime = hours - 40
