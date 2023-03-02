@@ -23,15 +23,15 @@ def float2dollar(num):
     return '${:,.2f}'.format(num)
 
 try:
-    hours = raw_input('How many hours did you work? ')
+    hours = input('How many hours did you work? ')
     hours = float(hours)
-    rate = raw_input('How much did you get payed each hour? ')
+    rate = input('How much did you get payed each hour? ')
     rate = float(rate)
 except:
-    print 'Error, please enter numeric input.'
+    print('Error, please enter numeric input.')
 
 pay = computepay(hours, rate)
 
 
-print 'Pay:', pay
-print 'Hours worked overtime', hours - 40
+print('Pay:', pay)
+print('Hours worked overtime', hours - 40)
